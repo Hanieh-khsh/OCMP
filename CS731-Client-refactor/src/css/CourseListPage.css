@@ -1,0 +1,82 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  height: 60px;
+}
+
+.header-text {
+  text-align: left;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.header-text p {
+  margin: 5px 0;
+  color: #05440A;
+}
+
+.header-text a {
+  color: #05440A;
+  text-decoration: underline;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.breadcrumb {
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs .MuiTab-root {
+  font-size: 16px;
+}
+
+.tabs .Mui-selected {
+  color: #05440A !important;
+  font-size: 18px !important;
+}
+
+.course-card {
+  max-width: 345px;
+}
+
+.course-card .MuiCardContent-root {
+  text-align: left;
+}
+
+.course-details {
+  text-align: left;
+}
+
+.course-details h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.course-details p {
+  margin: 5px 0;
+}
+
+.course-details i {
+  margin-right: 5px;
+}

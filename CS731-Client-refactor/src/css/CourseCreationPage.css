@@ -1,0 +1,100 @@
+.course-creation-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.course-creation-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-creation-header h4 {
+    margin: 0;
+    color: #05440A;
+    font-size: 1.8em;
+}
+
+
+.course-creation-form .MuiTextField-root,
+.course-creation-form .MuiFormControl-root {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.course-creation-form .MuiOutlinedInput-root {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    background-color: #f9f9f9;
+}
+
+.course-creation-form .MuiOutlinedInput-root:hover {
+    border-color: #05440A;
+}
+
+.course-creation-form .MuiOutlinedInput-root:focus-within {
+    border-color: #05440A;
+    box-shadow: 0 0 5px rgba(5, 68, 10, 0.5);
+}
+
+
+.course-creation-form .MuiInputLabel-outlined {
+    color: #05440A;
+    font-size: 1rem;
+}
+
+.course-creation-form .upload-button {
+    background-color: #537756;
+    color: white;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.course-creation-form .upload-button:hover {
+    background-color: #05440A;
+}
+
+
+.course-creation-form .file-name {
+    margin-top: 10px;
+    color: #333;
+}
+
+
+.course-creation-form .submit-button {
+    background-color: #537756;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.course-creation-form .submit-button:hover {
+    background-color: #05440A;
+}
+
+
+.course-creation-form .MuiFormHelperText-root {
+    color: #777;
+    font-size: 0.85em;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
