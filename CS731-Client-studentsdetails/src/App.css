@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #fcfcfc;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F6F6;
+  height: 20vh;
+  border-bottom: 1px solid ;
+}
+
+.App-header .logo {
+  height: 60px;
+  margin-right: 20px;
+}
+
+.App-header .header-text {
+  text-align: left;
+  color: #05440A;
+}
+
+.App-header .header-text h1 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #05440A;
+}
+.App-header .header-text h2 {
+  margin: 0;
+  font-size: 0.5em;
+  color: #05440A;
+ }
+
+
+.App-header .header-text p {
+  margin: 0;
+  font-size: 1em;
+  color: #05440A;
+}
+
+.login-container {
+  padding: 20px;
+}
