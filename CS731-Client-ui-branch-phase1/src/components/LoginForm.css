@@ -1,0 +1,53 @@
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #05440A;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+  }
+  
+  .checkbox-container input {
+    margin-right: 10px;
+  }
+  
+  .login-form button {
+    width: 105%;
+    padding: 10px;
+    border: none;
+    background-color: #537756;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 36px;
+    
+  }
+  
+  .login-form a {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    color: gray;
+  }
+  

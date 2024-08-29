@@ -1,0 +1,93 @@
+.course-list-page-instructor {
+    background-color: #fcfcfc;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .course-card {
+    margin-bottom: 20px;
+  }
+  
+  .course-card .MuiCardContent-root {
+    padding-bottom: 16px !important;
+  }
+  
+  .course-card .MuiTypography-root {
+    margin-bottom: 10px;
+  }
+  
+  .course-card .MuiButton-root {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .course-list-page-instructor .MuiList-root {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .course-list-page-instructor .MuiListItem-root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .course-list-page-instructor .MuiListItem-root .MuiAvatar-root {
+    margin-right: 10px;
+  }
+  
+  .course-list-page-instructor .MuiListItem-root .MuiListItemText-root {
+    flex: 1;
+  }
+  
+  .course-list-page-instructor .MuiListItem-root .MuiCheckbox-root {
+    margin-left: 10px;
+  }
+  
+  .course-list-page-instructor .MuiTabs-root {
+    margin-bottom: 20px;
+  }
+  
+  .course-list-page-instructor .MuiTab-root {
+    font-size: 18px;
+  }
+  
+  .course-list-page-instructor .MuiTab-root.Mui-selected {
+    border-bottom: 2px solid #05440A;
+  }
+  
+  .course-list-page-instructor .MuiButton-root {
+    text-transform: none;
+  }
+  
+  .course-list-page-instructor .MuiButton-containedPrimary {
+    background-color: #537756;
+  }
+  
+  .course-list-page-instructor .MuiButton-containedPrimary:hover {
+    background-color: #05440A;
+  }
+  
+  .course-list-page-instructor .MuiTypography-body2 {
+    font-size: 14px;
+  }
+  
+  .blink {
+    animation: blink-animation 3s infinite;
+  }
+  
+  .blink:hover {
+    animation: none;
+  }
+  
+  @keyframes blink-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

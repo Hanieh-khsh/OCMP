@@ -1,0 +1,43 @@
+.new-user-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .new-user-form  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+
+  .new-user-form .form-group input {
+    width: 32%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .new-user-form .submit-button {
+  
+    background-color: #537756;
+    color: white;
+    cursor: pointer;
+   
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .form-row input {
+    margin-left: 10px;
+  }
+
+  .form-row:first-child {
+    margin-top: 0;
+  }
